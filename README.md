@@ -1,0 +1,82 @@
+ <!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sampaio & Soares - Serviços Elétricos</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <style>
+    body {
+      background-color:   #0a0a0a;
+      color: #e0e0e0;
+    }
+    .brand-gold {
+      color: #ffcc33;
+    }
+    .brand-blue {
+      color: #00bfff;
+    }
+  </style>
+</head>
+<body class="font-sans">
+  <!-- Header -->
+  <header class="bg-black p-4 shadow-md border-b border-blue-500">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="logo.png" alt="Logo Sampaio & Soares" class="h-14 object-contain">
+        <h1 class="text-2xl font-bold hidden md:block"><span class="brand-gold">SAMPAIO</span><span class="brand-blue">&SOARES</span></h1>
+      </div>
+      <a href="https://wa.me/5511953877183" class="bg-blue-500 text-white font-semibold px-4 py-2 rounded">WhatsApp</a>
+    </div>
+  </header>  <!-- Home -->  <section class="text-center py-16">
+    <h2 class="text-4xl font-bold mb-4 brand-blue">Serviços Elétricos Especializados</h2>
+    <p class="text-lg max-w-xl mx-auto">Atendimento rápido, seguro e profissional em instalações e manutenções elétricas residenciais e industriais.</p>
+  </section>  <!-- Serviços -->  <section id="servicos" class="py-16 bg-gray-900">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8 brand-gold">Nossos Serviços</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-black p-6 rounded-lg shadow border border-blue-500">
+          <h3 class="text-xl font-bold mb-2 brand-blue">Instalações Elétricas</h3>
+          <p>Projetos e execuções com segurança e normas atualizadas.</p>
+        </div>
+        <div class="bg-black p-6 rounded-lg shadow border border-blue-500">
+          <h3 class="text-xl font-bold mb-2 brand-blue">Manutenção Preventiva</h3>
+          <p>Inspeções e correções para evitar acidentes e falhas.</p>
+        </div>
+        <div class="bg-black p-6 rounded-lg shadow border border-blue-500">
+          <h3 class="text-xl font-bold mb-2 brand-blue">Quadros e Motores</h3>
+          <p>Montagem de quadros de distribuição e acionamento de motores trifásicos.</p>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Avaliação -->  <section id="avaliacao" class="py-16">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6 brand-gold">Avaliações dos Clientes</h2>
+      <div class="max-w-xl mx-auto mb-6">
+        <blockquote class="italic">"Profissionais excelentes, serviço rápido e com qualidade. Recomendo!"</blockquote>
+        <p class="mt-2 font-semibold">— Cliente Satisfeito</p>
+      </div>
+      <a href="https://g.page/r/CYXCSweLFOfyEAE/review" target="_blank" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Deixe sua avaliação</a>
+    </div>
+  </section>  <!-- Contato -->  <section id="contato" class="py-16 bg-gray-900">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-8 brand-blue">Entre em Contato</h2>
+      <form class="max-w-xl mx-auto bg-black p-6 rounded shadow border border-blue-500 mb-8">
+        <input type="text" placeholder="Seu nome" class="w-full mb-4 p-2 border rounded bg-gray-800 text-white" required>
+        <input type="email" placeholder="Seu e-mail" class="w-full mb-4 p-2 border rounded bg-gray-800 text-white" required>
+        <textarea placeholder="Mensagem" class="w-full mb-4 p-2 border rounded bg-gray-800 text-white" rows="5" required></textarea>
+        <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded">Enviar</button>
+      </form>
+      <div class="text-center mb-8">
+        <p class="mb-2">Instagram: <a href="https://instagram.com/sampaioesoares48" class="brand-blue">@sampaioesoares48</a></p>
+        <p class="mb-1">WhatsApp: <a href="https://wa.me/5511953877183" class="brand-blue">(11) 95387-7183</a></p>
+        <p>WhatsApp: <a href="https://wa.me/5511997035511" class="brand-blue">(11) 99703-5511</a></p>
+      </div>
+      <div class="max-w-3xl mx-auto">
+        <iframe class="w-full h-64 rounded" src="https://www.google.com/maps/embed?pb=!1m2!2m1!1sSampaio+%26+Soares+Servi%C3%A7os+El%C3%A9tricos+Especializados!5e0!3m2!1spt-BR!2sbr!4v1718038400000!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>  <!-- Footer -->  <footer class="bg-black text-white text-center p-4 border-t border-blue-500">
+    <p>Sampaio & Soares Serviços Elétricos © 2025 | CPF 422.876.718-46</p>
+  </footer>
+</body>
+</html>
